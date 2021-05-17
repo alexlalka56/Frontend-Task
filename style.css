@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    background: #313131;
+    padding: 0;
+}
+
+.header {
+    margin: 0 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    border-bottom: 1px solid #a7c353;
+    max-height: 96px;
+}
+
+nav.main-nav {
+    display: flex;
+    align-items: center;
+    min-height: 97px;
+    box-sizing: border-box;
+}
+
+nav.main-nav a {
+    padding: 20px;
+    min-height: 97px;
+    box-sizing: border-box;
+}
+
+nav.main-nav a:active {
+    background-color: #a7c353;
+}
+
+.container {
+    background: #ffffff;
+    border-top: 5px solid #a7c353;
+}
