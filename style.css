@@ -1,7 +1,17 @@
 body {
-    margin: 0;
+    margin: 0 20px;
     background: #313131;
     padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0px;
+    padding: 0px;
 }
 
 .header {
@@ -82,6 +92,47 @@ nav.main-nav a:active {
 }
 
 .footer div {
+    width: 227px;
     color: #ffffff;
+    box-sizing: border-box;
     padding-top: 40px;
+    height: 100%;
+    margin-right: 20px;
+}
+
+.borderh {
+    margin: 0px;
+    border-bottom: 1px solid;
+}
+
+ul {
+    margin: 0;
+    margin-top: 20px;
+    padding: 0px;
+    color: #999999;
+}
+
+.footer li {
+    list-style-type: none;
+    text-align: initial;
+}
+
+.margin5px {
+    margin-bottom: 5px;
+}
+
+a {
+    color: #a7c353
+}
+
+.margin10px {
+    margin: 10px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+.borderli {
+    border-bottom: 1px solid #999;
 }
