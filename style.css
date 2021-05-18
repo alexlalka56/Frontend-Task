@@ -36,3 +36,52 @@ nav.main-nav a:active {
     background: #ffffff;
     border-top: 5px solid #a7c353;
 }
+
+.shout {
+    min-height: 135px;
+}
+
+.slider {
+    min-height: 426px;
+    border-bottom: 1px solid #a7c353;
+    margin: 0 20px;
+}
+
+.image-box {
+    min-height: 350px;
+    max-width: 920px;
+    background: black;
+}
+
+.content {
+    display: flex;
+    justify-content: space-around;
+    margin: 0 20px;
+    height: 506px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-around;
+    height: 378px;
+    border-bottom: 1px solid white;
+    box-sizing: border-box;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-between;
+}
+
+.copyright h6 {
+    color: #999999;
+}
+
+.footer p {
+    color: #999999;
+}
+
+.footer div {
+    color: #ffffff;
+    padding-top: 40px;
+}
