@@ -140,6 +140,11 @@ nav.main-navigation {
   letter-spacing: -2px;
 }
 
+.article img {
+	padding: 5px;
+    border: 1px solid #d0dce7;
+}
+
 .articles-list ul {
   padding: 0;
   margin: 0;
