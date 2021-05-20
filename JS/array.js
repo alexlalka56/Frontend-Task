@@ -435,17 +435,17 @@ var result = [];
 function init(length) {
 	var array = getRandomString(length);
 	let app = document.getElementById("app");
+	let select = document.createElement("select");
+	app.appendChild(select);
 	for ( let i = 0 ; i < array.length ; i++){
-		let input = document.createElement("input");
-		let label = document.createElement("label");
-		input.setAttribute("type", "radio");
-		input.setAttribute("value", array[i]);
-		label.innerText = array[i];
-		label.appendChild(input);
-		app.appendChild(label);
+		let option = document.createElement("option");
+		option.setAttribute("value",array[i]);
+		option.innerText = array[i];
+		select.appendChild(option);
 		
-		input.addEventListener("change", onOptionChange);
 	}
+	
+	select.addEventListener("change", onOptionChange);
 }
 
 init(5);
