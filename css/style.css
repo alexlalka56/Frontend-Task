@@ -70,3 +70,27 @@ nav.main-navigation {
   background: #a7c353;
   color: #ffffff;
 }
+
+/** SHOUT */
+.shout {
+  display: flex;
+}
+
+.shout q {
+  margin: 40px auto;
+  max-width: 710px;
+  font-size: 20px;
+  font-style: italic;
+  line-height: 1.5;
+  color: #666666;
+}
+
+.shout q::before {
+  content: '“';
+  margin: 0 5px;
+}
+
+.shout q::after {
+  content: '”';
+  margin: 0 5px;
+}
