@@ -378,6 +378,7 @@ form {
     color: #999;
     outline: none;
     width: 100%;
+    font-family: 'Georgia';
     box-sizing: border-box;
     padding: 10px;
 }
