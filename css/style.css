@@ -97,12 +97,12 @@ nav.main-navigation {
 }
 
 .shout q::before {
-    content: 'â€œ';
+    content: '“';
     margin: 0 5px;
 }
 
 .shout q::after {
-    content: 'â€ž';
+    content: '„';
     margin: 0 5px;
 }
 
