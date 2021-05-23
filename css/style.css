@@ -101,7 +101,7 @@ nav.main-navigation {
 }
 
 .shout q::after {
-    content: 'Ã¢â‚¬Â';
+    content: '„';
     margin: 0 5px;
 }
 
