@@ -96,12 +96,12 @@ nav.main-navigation {
 }
 
 .shout q::before {
-    content: '“';
+    content: 'â€œ';
     margin: 0 5px;
 }
 
 .shout q::after {
-    content: '”';
+    content: 'â€';
     margin: 0 5px;
 }
 
@@ -386,6 +386,10 @@ form {
     background: #a7c353;
     text-transform: uppercase;
     cursor: pointer;
+    padding: 12px;
+    border-radius: 7px;
+    border: none;
+    font-family: 'Georgia';
 }
 
 a {
