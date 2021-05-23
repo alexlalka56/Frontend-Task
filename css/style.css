@@ -96,7 +96,7 @@ nav.main-navigation {
 }
 
 .shout q::before {
-    content: 'Ã¢â‚¬Å“';
+    content: '“';
     margin: 0 5px;
 }
 
@@ -411,7 +411,7 @@ textarea.Contact.Contact-message {
     resize: none;
     min-height: 100px;
     overflow: hidden;
-    outline: none;
+    /* outline: none; */
 }
 
 a.margin15px {
@@ -435,4 +435,8 @@ li.borderli {
 
 li.Blog-li {
     margin-bottom: 20px;
+}
+
+.Contact:focus {
+    outline: #a7c352 solid 1px;
 }
