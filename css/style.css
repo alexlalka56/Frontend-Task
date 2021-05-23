@@ -322,7 +322,7 @@ nav.main-navigation {
     margin-bottom: 5px;
     padding: 10px 0;
     color: #cccccc;
-    border-color: #999999;
+    border-color: #3a3a3a;
 }
 
 ul {
@@ -355,7 +355,7 @@ form {
 }
 
 .borderli {
-    border-bottom: 1px solid #999;
+    border-bottom: 1px solid #3a3a3a;
     margin-bottom: 18px;
 }
 
