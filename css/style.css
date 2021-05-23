@@ -96,12 +96,12 @@ nav.main-navigation {
 }
 
 .shout q::before {
-    content: 'â€œ';
+    content: 'Ã¢â‚¬Å“';
     margin: 0 5px;
 }
 
 .shout q::after {
-    content: 'â€';
+    content: 'Ã¢â‚¬Â';
     margin: 0 5px;
 }
 
@@ -280,12 +280,12 @@ nav.main-navigation {
 
 .footer {
     display: flex;
-    justify-content: space-around;
     min-height: 378px;
     border-bottom: 1px solid #3a3a3a;
     box-sizing: border-box;
     margin: 40px -20px 0;
     background: #313131;
+    justify-content: space-between;
 }
 
 .copyright {
@@ -308,12 +308,12 @@ nav.main-navigation {
 }
 
 .footer div {
-    width: 227px;
+    width: 280px;
     color: #ffffff;
     box-sizing: border-box;
     padding-top: 40px;
     height: 100%;
-    margin-right: 20px;
+    /* margin-right: 20px; */
 }
 
 .borderh {
