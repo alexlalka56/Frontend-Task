@@ -377,6 +377,9 @@ form {
     margin-bottom: 10px;
     color: #999;
     outline: none;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
 }
 
 .Sumbit-contact {
@@ -423,4 +426,8 @@ li.borderli {
 .blog-list {
     display: flex;
     flex-direction: column;
+}
+
+li.Blog-li {
+    margin-bottom: 20px;
 }
