@@ -11,6 +11,7 @@ h5,
 h6 {
     margin: 0;
     padding: 0;
+    /* font-size: 15px; */
 }
 
 .container {
@@ -96,12 +97,12 @@ nav.main-navigation {
 }
 
 .shout q::before {
-    content: '“';
+    content: 'â€œ';
     margin: 0 5px;
 }
 
 .shout q::after {
-    content: '„';
+    content: 'â€ž';
     margin: 0 5px;
 }
 
@@ -301,6 +302,7 @@ nav.main-navigation {
     color: #999999;
     font-family: 'Georgia', serif;
     font-size: 12px;
+    font-weight: normal;
 }
 
 .footer p {
@@ -319,7 +321,7 @@ nav.main-navigation {
 .borderh {
     margin: 0px;
     border-bottom: 1px solid;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
     padding: 10px 0;
     color: #cccccc;
     border-color: #3a3a3a;
@@ -327,7 +329,7 @@ nav.main-navigation {
 
 ul {
     margin: 0;
-    margin-top: 30px;
+    margin-top: 20px;
     padding: 0px;
     color: #999999;
 }
@@ -335,6 +337,9 @@ ul {
 .footer li {
     list-style-type: none;
     text-align: inherit;
+    font-size: 12px;
+    font-family: 'Georgia';
+    line-height: 1.6;
 }
 
 .margin5px {
@@ -351,7 +356,7 @@ a {
 }
 
 form {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .borderli {
@@ -439,4 +444,14 @@ li.Blog-li {
 
 .Contact:focus {
     outline: #a7c352 solid 1px;
+}
+
+li.data-li {
+    font-size: 12px;
+    font-family: 'Georgia';
+    line-height: 1.5;
+}
+
+.footer ul {
+    margin-top: 0;
 }
